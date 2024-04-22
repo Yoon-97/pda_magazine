@@ -47,7 +47,7 @@ footer {
   flex-grow: 0;
   margin: 64px 0px;
 }
-.footer-legft-column {
+.footer-logo-column {
   /* Column */
   position: static;
   /* 자동 레이아웃 */
@@ -58,9 +58,25 @@ footer {
   border-right: 1px solid rgb(25, 25, 25);
 
   /* Inside Auto Layout */
-  flex: 1;
+  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+  margin: 0px 48px;
+}
+.footer-nav-column {
+  /* Column */
+  position: static;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
   margin: 0px 48px;
 }
