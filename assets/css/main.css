@@ -7,6 +7,12 @@ body {
    background: rgb(253, 251, 245);
 }
 
-header {
-    
+nav {
+   padding: 20px 10px;
+   display: flex;
+   justify-content: right;
+}
+
+header > h1 {
+   text-align: left;
 }
