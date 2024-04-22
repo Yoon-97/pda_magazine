@@ -3,16 +3,33 @@
 }
 
 body {
+   padding: 10px;
    line-height: 1;
    background: rgb(253, 251, 245);
 }
 
+#page-wrapper {
+   /* Page Wrapper */
+   position: static;
+}
+
 nav {
+   color: #fff;
+   padding: 10px;
+   text-align: center;
    padding: 20px 10px;
    display: flex;
    justify-content: right;
 }
 
+header > #where {
+   position: absolute;
+   font-size: 10px;
+   margin-top: 25px;
+}
 header > h1 {
    text-align: left;
+   font-size: 50px;
+   margin-top: 60px;
+   margin-bottom: 60px;
 }
