@@ -46,7 +46,7 @@ header {
    padding: 10px;
    text-align: center;
 }
-header > #small-title {
+header > #work-small-title {
    position: absolute;
    font-size: 10px;
    margin-top: 25px;
@@ -54,7 +54,7 @@ header > #small-title {
 header > h1 {
    text-align: left;
    font-size: 50px;
-   margin-top: 60px;
+   margin-top: 30px;
    margin-bottom: 60px;
 }
 
@@ -90,10 +90,14 @@ header > h1 {
 }
 
 /* Newsletter */
+.newsletter > #news-small-title {
+   font-size: 10px;
+   margin-top: 25px;
+}
 .newsletter > h1 {
    text-align: left;
    font-size: 40px;
-   margin-top: 20px;
+   margin-top: 10px;
    margin-bottom: 60px;
 }
 footer {
