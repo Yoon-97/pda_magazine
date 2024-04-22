@@ -15,87 +15,17 @@
   margin: 0px 10px;
 }
 body {
-   padding: 10px;
-   line-height: 1;
-   background: rgb(253, 251, 245);
+}
+header {
 }
 
-#page-wrapper {
-   /* Page Wrapper */
-   position: static;
-}
-
-nav {
-   color: #fff;
-   padding: 10px;
-   text-align: center;
-   padding: 20px 10px;
-   display: flex;
-   justify-content: right;
-}
-
-header > #small-title {
-   position: absolute;
-   font-size: 10px;
-   margin-top: 25px;
-}
-header > h1 {
-   text-align: left;
-   font-size: 50px;
-   margin-top: 60px;
-   margin-bottom: 60px;
-}
-
-.article-card {
-   display: flex;
-   flex-direction: row-reverse;
-   justify-content: space-between;
-}
-
-.image-wrapper {
-   /* position: relative;
-   width: 100%;
-   height:0'
-   padding-bottom: 56.26%;
-   overflow: hidden; */
-}
-
-.article-img {
-   width: 400px;
-   /* width: 100%;
-   height: 100%; */
-}
-
-.article-card > h2 {
-   margin-top: 20px;
-   margin-bottom: 10px;
-   font-size: 30px;
-}
-
-.article-content > li {
-   display: flex;
-   justify-content: space-around;
-   font-size: 10px;
-   line-height: 30px;
-   flex: 1;
-   justify-content: left;
-}
-
-.newsletter > h1 {
-   text-align: left;
-   font-size: 50px;
-   margin-top: 60px;
-   margin-bottom: 60px;
 footer {
-  /* Footer */
-  position: static;
-
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 2px 0px;
   border-bottom: 1px rgb(25, 25, 25) solid;
 
   /* Inside Auto Layout */
@@ -107,8 +37,6 @@ footer {
 }
 
 .footer-logo-column {
-  /* Column */
-  position: static;
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: column;
@@ -123,8 +51,6 @@ footer {
   flex-grow: 0;
 }
 .footer-nav-column {
-  /* Column */
-  position: static;
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: column;
