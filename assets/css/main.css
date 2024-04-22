@@ -9,10 +9,11 @@ body {
 }
 
 #page-wrapper {
-   /* Page Wrapper */
    position: static;
 }
 
+/* --- HEADER PART --- */
+/* navigation */
 nav {
    color: #fff;
    padding: 10px;
@@ -22,6 +23,7 @@ nav {
    justify-content: right;
 }
 
+/* header */
 header > #small-title {
    position: absolute;
    font-size: 10px;
@@ -34,12 +36,13 @@ header > h1 {
    margin-bottom: 60px;
 }
 
+/* --- BODY PART --- */
+/* article */
 .article-card {
    display: flex;
    flex-direction: row-reverse;
    justify-content: space-between;
 }
-
 .image-wrapper {
    /* position: relative;
    width: 100%;
@@ -47,19 +50,16 @@ header > h1 {
    padding-bottom: 56.26%;
    overflow: hidden; */
 }
-
 .article-img {
    width: 400px;
    /* width: 100%;
    height: 100%; */
 }
-
-.article-card > h2 {
+.article-card > .list-group > h2 {
+   font-size: 25px;
    margin-top: 20px;
    margin-bottom: 10px;
-   font-size: 30px;
 }
-
 .article-content > li {
    display: flex;
    justify-content: space-around;
@@ -69,6 +69,7 @@ header > h1 {
    justify-content: left;
 }
 
+/* Newsletter */
 .newsletter > h1 {
    text-align: left;
    font-size: 50px;
