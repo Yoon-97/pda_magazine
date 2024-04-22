@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "Pretendard-Medium";
-  src: url(./assets/font/Pretendard-Medium.tff) format("otf");
+  font-family: "Pretendard-Bold";
+  src: url(../font/Pretendard-Bold.otf) format("otf");
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url(./assets/font/Roboto-Regular.ttf) format("tff");
+  src: url(../font/RobotoMono-Medium.ttf) format("tff");
 }
-
 #page-wrapper {
   /* Page Wrapper */
   position: static;
@@ -20,7 +19,7 @@
   margin: 0px 10px;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: PrePretendard-Bold, sans-serif;
   margin: 0;
   padding: 10px;
   line-height: 1;
@@ -134,6 +133,8 @@ footer {
   align-items: flex-start;
   border-right: 1px solid rgb(25, 25, 25);
   padding: 10px;
+  font-family: Pretendard;
+  text-align: left;
 
   /* Inside Auto Layout */
   flex: none;
@@ -163,11 +164,12 @@ footer {
   text-align: left;
 }
 .footer-nav-column > h3 {
-  font-family: "Pretendard-Medium";
+  font-family: "Pretendard-Bold";
   text-align: left;
   font-size: 24px;
 }
 .footer-ul-style > li {
-  line-height: 50px;
+  line-height: 35px;
   font-family: "Roboto-Regular";
+  font-size: 15px;
 }
