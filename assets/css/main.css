@@ -82,9 +82,9 @@ header > h1 {
    height: 100%; */
 }
 .article-card > .list-group > h2 {
-   font-size: 25px;
-   margin-top: 20px;
-   margin-bottom: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .article-content > li {
    display: flex;
