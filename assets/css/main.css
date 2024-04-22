@@ -26,15 +26,6 @@ body {
 }
 
 /* --- HEADER PART --- */
-/* navigation */
-nav {
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  padding: 20px 10px;
-  display: flex;
-  justify-content: right;
-}
 
 /* header */
 header > #small-title {
@@ -69,9 +60,9 @@ header > h1 {
    height: 100%; */
 }
 .article-card > .list-group > h2 {
-   font-size: 25px;
-   margin-top: 20px;
-   margin-bottom: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .article-content > li {
   display: flex;
