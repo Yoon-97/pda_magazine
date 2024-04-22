@@ -77,13 +77,13 @@ header {
 }
 header > #work-small-title {
    position: absolute;
-   font-size: 10px;
-   margin-top: 5px;
+   font-size: 12px;
+   margin-top: 14px;
 }
 header > h1 {
    text-align: left;
    font-size: 50px;
-   margin-top: 30px;
+   margin-top: 45px;
    margin-bottom: 60px;
 }
 
@@ -93,6 +93,7 @@ header > h1 {
    display: flex;
    flex-direction: row-reverse;
    justify-content: space-between;
+   margin-left: 10px;
 }
 .image-wrapper {
    /* position: relative;
@@ -119,31 +120,37 @@ header > h1 {
 }
 
 /* Newsletter */
-.newsletter-title {
+.newsletter {
 }
 #news-small-title {
    font-size: 10px;
-   margin-top: 25px;
+   margin-top: 7px;
 }
 .newsletter-group {
    display: flex;
    justify-content: space-between;
+   padding: 6px;
+   margin-bottom: 30px;
+   margin-top: 15px;
 }
 .newsletter-title > h1 {
    text-align: left;
    font-size: 40px;
-   margin-top: 10px;
+   margin-top: 20px;
    margin-bottom: 60px;
 }
 .newsletter-side {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   padding: 20px;
+   flex-grow: 0.13;
 }
 .newsletter-side > .newsletter-register {
    display: flex;
    justify-content: space-between;
+}
+#newsletter-text {
+   line-height: 25px;
 }
 #your-email {
    flex-grow: 5;
