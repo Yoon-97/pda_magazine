@@ -2,9 +2,9 @@
    /* Page Wrapper */
    position: static;
    /* 자동 레이아웃 */
-   /* display: flex;
+   display: flex;
    flex-direction: column;
-   justify-content: flex-start; */
+   justify-content: flex-start;
    align-items: flex-start;
    padding: 48px;
 
@@ -82,9 +82,9 @@ header > h1 {
    height: 100%; */
 }
 .article-card > .list-group > h2 {
-   font-size: 25px;
-   margin-top: 20px;
-   margin-bottom: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .article-content > li {
    display: flex;
