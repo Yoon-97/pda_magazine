@@ -1,8 +1,6 @@
 #page-wrapper {
   /* Page Wrapper */
   position: static;
-  width: 1880px;
-  height: 6036.75px;
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: column;
@@ -19,35 +17,29 @@
 body {
 }
 header {
-  color: #000000;
-  padding: 10px;
-  text-align: center;
 }
 
 footer {
   /* Footer */
   position: static;
-  width: 1784px;
-  height: 457px;
+
   /* 자동 레이아웃 */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 16px 0px;
+  padding: 0px 0px 16px 0px; */
 
   /* Inside Auto Layout */
-  flex: none;
+  /* flex: none;
   order: 4;
   align-self: stretch;
   flex-grow: 0;
-  margin: -1px 0px;
+  margin: -1px 0px; */
 }
 .border-style {
   /* Border */
   position: static;
-  width: 1784px;
-  height: 1px;
   /* Inside Auto Layout */
   flex: none;
   order: 2;
@@ -55,20 +47,18 @@ footer {
   flex-grow: 0;
   margin: 64px 0px;
 }
-.footer-column {
+.footer-legft-column {
   /* Column */
   position: static;
-  width: 530px;
-  height: 311px;
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px;
+  border-right: 1px solid rgb(25, 25, 25);
 
   /* Inside Auto Layout */
-  flex: none;
+  flex: 1;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
