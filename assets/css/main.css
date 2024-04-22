@@ -119,6 +119,8 @@ header > h1 {
 }
 
 /* Newsletter */
+.newsletter-title {
+}
 #news-small-title {
    font-size: 10px;
    margin-top: 25px;
@@ -127,7 +129,7 @@ header > h1 {
    display: flex;
    justify-content: space-between;
 }
-.newsletter > .newsletter-group > h1 {
+.newsletter-title > h1 {
    text-align: left;
    font-size: 40px;
    margin-top: 10px;
