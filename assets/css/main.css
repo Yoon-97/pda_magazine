@@ -25,13 +25,13 @@ footer {
 
   /* 자동 레이아웃 */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 16px 0px; */
+  padding: 0px 0px 16px 0px;
 
   /* Inside Auto Layout */
-  /* flex: none;
+  flex: none;
   order: 4;
   align-self: stretch;
   flex-grow: 0;
@@ -47,7 +47,6 @@ footer {
   justify-content: space-around;
   align-items: flex-start;
   border-right: 1px solid rgb(25, 25, 25);
-  border-left: ;
 
   /* Inside Auto Layout */
   flex: none;
@@ -68,6 +67,25 @@ footer {
   /* Inside Auto Layout */
   flex: none;
   order: 0;
+  flex-grow: 1;
+  margin: 0px 48px;
+}
+
+.footer-ul-style {
+  /* Column */
+  position: static;
+  width: 353.67px;
+  height: 311px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
   flex-grow: 1;
   margin: 0px 48px;
 }
