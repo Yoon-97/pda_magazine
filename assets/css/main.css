@@ -39,8 +39,6 @@ body {
    padding: 10px;
    text-align: center;
    padding: 20px 10px;
-   display: flex;
-   justify-content: right;
 }
 
 .head-navigation a {
@@ -51,8 +49,16 @@ body {
 
 .nav-group {
    display: flex;
+   justify-content: space-between;
    align-items: center;
    gap: 20px;
+}
+
+.nav-group > .nav-side {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   font-size: 10px;
 }
 
 .nav-button {
@@ -60,6 +66,7 @@ body {
    color: white;
    border-radius: 6px;
    padding: 10px;
+   font-size: 10px;
 }
 
 /* header */
