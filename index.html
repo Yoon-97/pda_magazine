@@ -1,88 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
-      
+
     <title>웹매거진</title>
-      <style>
-         /* 여기에 CSS 스타일을 추가하세요 */
-         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-         }
-         header {
-            color: #000000;
-            padding: 10px;
-            text-align: center;
-         }
-         nav {
-            background-color: #444;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-         }
-         nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-         }
-         nav a:hover {
-            text-decoration: underline;
-         }
-         section {
-            padding: 20px;
-         }
-         article {
-            margin-bottom: 20px;
-         }
-         h2 {
-            color: #333;
-         }
-         p {
-            line-height: 1.6;
-         }
-         footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-         }
-      </style>
-   </head>
-   <body>
-      <nav>
-         <a href="#">홈</a>
-         <a href="#">기사</a>
-         <a href="#">블로그</a>
-         <a href="#">포럼</a>
-         <a href="#">연락처</a>
-      </nav>
-      <header>
-        <h1>Our branding<br> success stories.</h1>
-     </header>
-      <section>
-         <article>
-            <h2>기사 제목</h2>
-            <p>
-               기사 내용이 여기에 들어갑니다. Lorem ipsum dolor sit amet,
-               consectetur adipiscing elit.
-            </p>
-         </article>
-         <article>
-            <h2>다른 기사 제목</h2>
-            <p>
-               다른 기사 내용이 여기에 들어갑니다. Sed do eiusmod tempor
-               incididunt ut labore et dolore magna aliqua.
-            </p>
-         </article>
-      </section>
-      <footer>© 2024 웹매거진. All Rights Reserved.</footer>
-   </body>
+    <style>
+      /* 여기에 CSS 스타일을 추가하세요 */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+      }
+      nav {
+        background-color: #444;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        padding: 20px;
+      }
+      article {
+        margin-bottom: 20px;
+      }
+      h2 {
+        color: #333;
+      }
+      p {
+        line-height: 1.6;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#">홈</a>
+      <a href="#">기사</a>
+      <a href="#">블로그</a>
+      <a href="#">포럼</a>
+      <a href="#">연락처</a>
+    </nav>
+    <header>
+      <h1>
+        Our branding<br />
+        success stories.
+      </h1>
+    </header>
+    <section>
+      <article>
+        <h2>기사 제목</h2>
+        <p>
+          기사 내용이 여기에 들어갑니다. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit.
+        </p>
+      </article>
+      <article>
+        <h2>다른 기사 제목</h2>
+        <p>
+          다른 기사 내용이 여기에 들어갑니다. Sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <div class="flex-container">
+        <img src="./img/007_header.svg" width="10%" />
+        <div id="flex-container-footer">
+          <div class="tel-flex-container">
+            <a class="footer-box" href="tel:+12345678">+82-010-1234-5678</a>
+            <a class="footer-box" href="">abc@gmail.com</a>
+            <div>
+              <a href="#"><img src="./img/github_header.svg" width="30px" /></a>
+              <a href="#"
+                ><img src="./img/twitter_header.svg" width="30px"
+              /></a>
+              <a href="#"><img src="./img/linkedin.svg" width="30px" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-flex-container">
+        <div class="flex-container">
+          <span class="footer-box"><a href="#">Home</a></span>
+          <span class="footer-box"><a href="#">About </a></span>
+          <span class="footer-box"><a href="#">TechStack </a></span>
+          <span class="footer-box"><a href="#">Projects </a></span>
+          <span class="footer-box">Contact</span>
+        </div>
+        <div class="remove-it">
+          Designed and built pavanMG with Love & Coffee
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

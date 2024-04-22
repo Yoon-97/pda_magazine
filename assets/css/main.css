@@ -1,16 +1,26 @@
-* {
-  margin: 0;
-}
-
 body {
-  line-height: 1;
-  background: rgb(253, 251, 245);
 }
-
 header {
+  color: #000000;
+  padding: 10px;
+  text-align: center;
 }
-
 footer {
+  /* Footer */
+  position: static;
+  width: 1784px;
+  height: 457px;
+  /* 자동 레이아웃 */
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px 16px 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -1px 0px;
 }
