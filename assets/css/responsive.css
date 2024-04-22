@@ -2,13 +2,12 @@
   .head-navigation {
     display: flex;
     flex-direction: column;
-
-    header > h1 {
-      font-size: 30px;
-    }
-
-    .article-card {
-      flex-direction: column;
-    }
+  }
+  .article-card {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header > h1 {
+    font-size: 30px;
   }
 }
