@@ -1,64 +1,77 @@
 @font-face {
-  font-family: "Pretendard-Medium";
-  src: url(./assets/font/Pretendard-Medium.tff) format("otf");
+   font-family: "Pretendard-Medium";
+   src: url(./assets/font/Pretendard-Medium.tff) format("otf");
 }
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url(./assets/font/Roboto-Regular.ttf) format("tff");
+   font-family: "Roboto-Regular";
+   src: url(./assets/font/Roboto-Regular.ttf) format("tff");
 }
 
 #page-wrapper {
-  /* Page Wrapper */
-  position: static;
-  align-items: flex-start;
-  padding: 48px;
+   /* Page Wrapper */
+   position: static;
+   align-items: flex-start;
+   padding: 48px;
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 1;
-  margin: 0px 10px;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+   margin: 0px 10px;
 }
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 10px;
-  line-height: 1;
-  background: rgb(253, 251, 245);
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 10px;
+   line-height: 1;
+   background: rgb(253, 251, 245);
 }
 
 #page-wrapper {
-  /* Page Wrapper */
-  position: static;
+   /* Page Wrapper */
+   position: static;
 }
 
 /* --- HEADER PART --- */
 /* navigation */
 .head-navigation {
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  padding: 20px 10px;
-  display: flex;
-  justify-content: right;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   padding: 20px 10px;
+   display: flex;
+   justify-content: right;
 }
 
 .head-navigation a {
-  color: #000000;
-  text-decoration: none;
-  margin: 0 10px;
+   color: #000000;
+   text-decoration: none;
+   margin: 0 10px;
+}
+
+.nav-group {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.nav-button {
+   background-color: #0a0a23;
+   color: white;
+   border-radius: 6px;
+   padding: 10px;
 }
 
 /* header */
 header {
-  color: #000000;
-  padding: 10px;
-  text-align: center;
+   color: #000000;
+   padding: 10px;
+   text-align: center;
 }
 header > #work-small-title {
    position: absolute;
    font-size: 10px;
-   margin-top: 25px;
+   margin-top: 5px;
 }
 header > h1 {
    text-align: left;
@@ -70,101 +83,130 @@ header > h1 {
 /* --- BODY PART --- */
 /* article */
 .article-card {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
 }
 .image-wrapper {
-  /* position: relative;
+   /* position: relative;
    width: 100%;
    height:0'
    padding-bottom: 56.26%;
    overflow: hidden; */
 }
 .article-img {
-  width: 400px;
+   width: 400px;
 }
 .article-card > .list-group > h2 {
-  font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+   font-size: 25px;
+   margin-top: 20px;
+   margin-bottom: 10px;
 }
 .article-content > li {
-  display: flex;
-  justify-content: space-around;
-  font-size: 10px;
-  line-height: 30px;
-  flex: 1;
-  justify-content: left;
+   display: flex;
+   justify-content: space-around;
+   font-size: 10px;
+   line-height: 30px;
+   flex: 1;
+   justify-content: left;
 }
 
 /* Newsletter */
-.newsletter > #news-small-title {
+#news-small-title {
    font-size: 10px;
    margin-top: 25px;
 }
-.newsletter > h1 {
+.newsletter-group {
+   display: flex;
+   justify-content: space-between;
+}
+.newsletter > .newsletter-group > h1 {
    text-align: left;
    font-size: 40px;
    margin-top: 10px;
    margin-bottom: 60px;
 }
-footer {
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 20px 0px 20px 0px;
-  border-bottom: 1px rgb(25, 25, 25) solid;
+.newsletter-side {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px;
+}
+.newsletter-side > .newsletter-register {
+   display: flex;
+   justify-content: space-between;
+}
+#your-email {
+   flex-grow: 5;
+   border-bottom: 1px rgb(25, 25, 25) solid;
+   margin-right: 9px;
+   padding: 5px;
+}
+#register-button {
+   background-color: #0a0a23;
+   color: white;
+   border-radius: 6px;
+   padding: 6px;
+   font-size: 11px;
+}
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 4;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: -1px 0px;
+/* --- FOOTER PART --- */
+footer {
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 20px 0px 20px 0px;
+   border-bottom: 1px rgb(25, 25, 25) solid;
+
+   /* Inside Auto Layout */
+   flex: none;
+   order: 4;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: -1px 0px;
 }
 
 .footer-logo-column {
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: column;
-  justify-content: normal;
-  align-items: flex-start;
-  border-right: 1px solid rgb(25, 25, 25);
-  padding: 10px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: normal;
+   align-items: flex-start;
+   border-right: 1px solid rgb(25, 25, 25);
+   padding: 10px;
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 5;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 5;
 }
 .footer-logo-column > h3 {
-  text-align: left;
-  font-size: 24px;
+   text-align: left;
+   font-size: 24px;
 }
 .footer-nav-column {
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 10px;
-  gap: 10px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 10px;
+   gap: 10px;
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 1;
-  margin: 0px 48px;
-  text-align: left;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+   margin: 0px 48px;
+   text-align: left;
 }
 .footer-nav-column > h3 {
-  text-align: left;
-  font-size: 24px;
+   text-align: left;
+   font-size: 24px;
 }
 .footer-ul-style > li {
-  line-height: 30px;
+   line-height: 30px;
 }
