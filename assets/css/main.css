@@ -107,12 +107,12 @@ header > h1 {
    overflow: hidden; */
 }
 .article-img {
-   width: 60%;
-   border-radius: 3%;
+  width: 60%;
+  border-radius: 4%;
 }
 .article-card > .list-group > h2 {
    font-size: 30px;
-   margin-top: 20px;
+   margin-top: 20px
    margin-bottom: 10px;
 }
 .article-content > li {
@@ -146,6 +146,7 @@ header > h1 {
    font-size: 40px;
    margin-top: 20px;
    margin-bottom: 60px;
+   order:1;
 }
 .newsletter-side {
    display: flex;
@@ -156,11 +157,13 @@ header > h1 {
    padding: 10px;
 }
 .newsletter-side > .newsletter-register {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  order: 3;
 }
 #newsletter-text {
    line-height: 25px;
+   order: 3;
 }
 #your-email {
    flex-grow: 5;
@@ -249,4 +252,7 @@ footer {
    line-height: 35px;
    font-family: "Roboto-Regular";
    font-size: 15px;
+}
+.visible-when-react{
+   display: none;
 }

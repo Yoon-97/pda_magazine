@@ -7,7 +7,49 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  header > h1 {
-    font-size: 30px;
+
+  .nav-group {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .article-img {
+    width: 100%;
+  }
+  .newsletter-group {
+    display: flex;
+    flex-direction: column;
+
+    padding: 6px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(25, 25, 25) solid;
+  }
+  .visible-when-react {
+    display: block;
+  }
+  .visible-when-normal {
+    display: none;
+  }
+
+  .newsletter-side > .newsletter-register {
+    order: 2;
+  }
+  #newsletter-text {
+    order: 3;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-logo-column {
+    border-right: 0px;
+  }
+
+  .footer-nav-column {
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
   }
 }
