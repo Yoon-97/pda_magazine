@@ -148,6 +148,7 @@ header > h1 {
    font-size: 40px;
    margin-top: 20px;
    margin-bottom: 60px;
+   order:1;
 }
 .newsletter-side {
    display: flex;
@@ -158,9 +159,11 @@ header > h1 {
 .newsletter-side > .newsletter-register {
   display: flex;
   justify-content: space-between;
+  order: 3;
 }
 #newsletter-text {
    line-height: 25px;
+   order: 3;
 }
 #your-email {
    flex-grow: 5;

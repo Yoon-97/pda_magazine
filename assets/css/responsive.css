@@ -32,4 +32,8 @@
   .visible-when-normal {
     display: none;
   }
+
+  .newsletter-side > .newsletter-register {
+    order: 2;
+  }
 }
