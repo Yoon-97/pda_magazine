@@ -36,4 +36,20 @@
   .newsletter-side > .newsletter-register {
     order: 2;
   }
+  #newsletter-text {
+    order: 3;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-logo-column {
+    border-right: 0px;
+  }
+
+  .footer-nav-column {
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+  }
 }
