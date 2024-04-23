@@ -40,6 +40,7 @@ body {
   padding: 20px 10px;
   display: flex;
   justify-content: right;
+  border-bottom: 1px rgb(25, 25, 25) solid;
 }
 
 .head-navigation a {
