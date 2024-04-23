@@ -1,55 +1,63 @@
 @media (max-width: 768px) {
-  .head-navigation {
-    display: flex;
-    flex-direction: column;
-  }
-  .article-card {
-    flex-direction: column;
-    justify-content: space-between;
-  }
+   .head-navigation {
+      display: flex;
+      flex-direction: column;
+   }
+   .article-card {
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .nav-group {
+      flex-direction: column;
+      align-items: baseline;
+   }
+   .article-img {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   .article-card > .list-group > h2 {
+      margin-bottom: 15px;
+      margin-top: 15px;
+   }
 
-  .nav-group {
-    flex-direction: column;
-    align-items: baseline;
-  }
-  .article-img {
-    width: 100%;
-  }
-  .newsletter-group {
-    display: flex;
-    flex-direction: column;
+   .newsletter-group {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      border-bottom: 1px rgb(25, 25, 25) solid;
+   }
+   .visible-when-react {
+      display: block;
+   }
+   .visible-when-normal {
+      display: none;
+   }
+   .newsletter-title > h1 {
+      margin-bottom: 40px;
+   }
+   .newsletter-side {
+      padding: 0px;
+      gap: 10px;
+   }
+   .newsletter-side > .newsletter-register {
+      order: 2;
+   }
+   #newsletter-text {
+      order: 3;
+   }
+   footer {
+      flex-direction: column;
+   }
+   .footer-logo-column {
+      border-right: 0px;
+   }
 
-    padding: 6px;
-    margin-bottom: 30px;
-    margin-top: 15px;
-
-    padding-bottom: 20px;
-    border-bottom: 1px rgb(25, 25, 25) solid;
-  }
-  .visible-when-react {
-    display: block;
-  }
-  .visible-when-normal {
-    display: none;
-  }
-
-  .newsletter-side > .newsletter-register {
-    order: 2;
-  }
-  #newsletter-text {
-    order: 3;
-  }
-  footer {
-    flex-direction: column;
-  }
-  .footer-logo-column {
-    border-right: 0px;
-  }
-
-  .footer-nav-column {
-    margin: 0;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: left;
-  }
+   .footer-nav-column {
+      margin: 0;
+      margin-top: 10px;
+      padding: 10px;
+      text-align: left;
+   }
 }
