@@ -1,0 +1,125 @@
+@font-face {
+   font-family: "Pretendard-Bold";
+   src: url(../font/Pretendard-Bold.otf) format("otf");
+}
+@font-face {
+   font-family: "Roboto-Regular";
+   src: url(../font/RobotoMono-Medium.ttf) format("tff");
+}
+#page-wrapper {
+   position: static;
+   align-items: flex-start;
+   padding: 48px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+   margin: 0px 10px;
+}
+body {
+   font-family: PrePretendard-Bold, sans-serif;
+   margin: 0;
+   padding: 10px;
+   line-height: 1;
+   background: rgb(253, 251, 245);
+}
+
+/* --- HEADER PART --- */
+/* navigation */
+.head-navigation {
+   color: #fff;
+   text-align: center;
+   padding: 30px 10px;
+   border-bottom: 1px rgb(25, 25, 25) solid;
+}
+
+.head-navigation a {
+   color: #000000;
+   text-decoration: none;
+   margin: 0 10px;
+}
+
+.nav-group {
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center;
+    gap: 20px; */
+}
+
+.nav-group > .nav-side {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   font-size: 10px;
+}
+
+.nav-button {
+   background-color: #0a0a23;
+   color: white;
+   border-radius: 6px;
+   padding: 10px;
+   font-size: 10px;
+}
+
+/* Header text*/
+header {
+   border-bottom: 1px #000000 solid;
+}
+header > h1 {
+   text-align: left;
+   font-size: 60px;
+   margin-top: 25px;
+   margin-bottom: 20px;
+}
+
+header > #header-smalltext {
+   font-size: 11px;
+   text-align: left;
+   line-height: 15px;
+}
+
+header > .header-textgroup {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   flex-wrap: wrap;
+}
+
+.header-tag {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   font-size: 9px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+#BRANDING {
+   border-color: #a2a2a2;
+   border: 2px solid rgb(152 152 152 / 0%);
+   color: #696969;
+   border-radius: 30px;
+   padding: 7px;
+   background-color: rgb(207 255 120 / 22%);
+}
+
+#MAGAZINE {
+   border-color: #a2a2a2;
+   border: 2px solid rgb(152 152 152 / 0%);
+   color: #696969;
+   border-radius: 30px;
+   padding: 7px;
+   background-color: rgb(207 255 120 / 22%);
+}
+
+.product-group {
+   display: flex;
+   flex-direction: center;
+}
+
+.product-items > img {
+   max-width: 300px;
+   padding: 10px;
+   flex-wrap: no-wrap;
+}
