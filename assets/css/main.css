@@ -7,12 +7,10 @@
    src: url(../font/RobotoMono-Medium.ttf) format("tff");
 }
 #page-wrapper {
-   /* Page Wrapper */
    position: static;
    align-items: flex-start;
    padding: 48px;
 
-   /* Inside Auto Layout */
    flex: none;
    order: 0;
    flex-grow: 1;
@@ -24,11 +22,6 @@ body {
    padding: 10px;
    line-height: 1;
    background: rgb(253, 251, 245);
-}
-
-#page-wrapper {
-   /* Page Wrapper */
-   position: static;
 }
 
 /* --- HEADER PART --- */
@@ -107,12 +100,12 @@ header > h1 {
    overflow: hidden; */
 }
 .article-img {
-  width: 60%;
-  border-radius: 4%;
+   width: 60%;
+   border-radius: 4%;
 }
 .article-card > .list-group > h2 {
    font-size: 30px;
-   margin-top: 20px
+   margin-top: 20px;
    margin-bottom: 10px;
 }
 .article-content > li {
@@ -146,7 +139,7 @@ header > h1 {
    font-size: 40px;
    margin-top: 20px;
    margin-bottom: 60px;
-   order:1;
+   order: 1;
 }
 .newsletter-side {
    display: flex;
@@ -157,9 +150,9 @@ header > h1 {
    padding: 10px;
 }
 .newsletter-side > .newsletter-register {
-  display: flex;
-  justify-content: space-between;
-  order: 3;
+   display: flex;
+   justify-content: space-between;
+   order: 3;
 }
 #newsletter-text {
    line-height: 25px;
@@ -175,7 +168,7 @@ header > h1 {
    border-width: 0 0 1px;
 }
 
-#your-email:::placeholder {
+#your-email::placeholder {
    color: #000000;
 }
 #register-button {
@@ -253,6 +246,6 @@ footer {
    font-family: "Roboto-Regular";
    font-size: 15px;
 }
-.visible-when-react{
+.visible-when-react {
    display: none;
 }
