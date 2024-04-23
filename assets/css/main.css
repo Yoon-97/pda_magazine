@@ -7,16 +7,16 @@
   src: url(../font/RobotoMono-Medium.ttf) format("tff");
 }
 #page-wrapper {
-   /* Page Wrapper */
-   position: static;
-   align-items: flex-start;
-   padding: 48px;
+  /* Page Wrapper */
+  position: static;
+  align-items: flex-start;
+  padding: 48px;
 
-   /* Inside Auto Layout */
-   flex: none;
-   order: 0;
-   flex-grow: 1;
-   margin: 0px 10px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
 }
 body {
   font-family: PrePretendard-Bold, sans-serif;
@@ -27,30 +27,32 @@ body {
 }
 
 #page-wrapper {
-   /* Page Wrapper */
-   position: static;
+  /* Page Wrapper */
+  position: static;
 }
 
 /* --- HEADER PART --- */
 /* navigation */
 .head-navigation {
-   color: #fff;
-   padding: 10px;
-   text-align: center;
-   padding: 20px 10px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: right;
+  border-bottom: 1px rgb(25, 25, 25) solid;
 }
 
 .head-navigation a {
-   color: #000000;
-   text-decoration: none;
-   margin: 0 10px;
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 .nav-group {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-group > .nav-side {
@@ -70,9 +72,11 @@ body {
 
 /* header */
 header {
-   color: #000000;
-   padding: 10px;
-   text-align: center;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px rgb(25, 25, 25) solid;
 }
 header > #work-small-title {
    position: absolute;
@@ -89,20 +93,24 @@ header > h1 {
 /* --- BODY PART --- */
 /* article */
 .article-card {
-   display: flex;
-   flex-direction: row-reverse;
-   justify-content: space-between;
-   margin-left: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  border-bottom: 1px rgb(25, 25, 25) solid;
 }
 .image-wrapper {
-   /* position: relative;
+  /* position: relative;
    width: 100%;
    height:0'
    padding-bottom: 56.26%;
    overflow: hidden; */
 }
 .article-img {
-   width: 400px;
+  width: 60%;
+  border-radius: 3%;
 }
 .article-card > .list-group > h2 {
    font-size: 30px;
@@ -110,12 +118,12 @@ header > h1 {
    margin-bottom: 10px;
 }
 .article-content > li {
-   display: flex;
-   justify-content: space-around;
-   font-size: 10px;
-   line-height: 30px;
-   flex: 1;
-   justify-content: left;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  line-height: 30px;
+  flex: 1;
+  justify-content: left;
 }
 
 /* Newsletter */
@@ -131,6 +139,9 @@ header > h1 {
    padding: 6px;
    margin-bottom: 30px;
    margin-top: 15px;
+  
+    padding-bottom: 20px;
+  border-bottom: 1px rgb(25, 25, 25) solid;
 }
 .newsletter-title > h1 {
    text-align: left;
@@ -145,14 +156,16 @@ header > h1 {
    flex-grow: 0.13;
 }
 .newsletter-side > .newsletter-register {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 #newsletter-text {
    line-height: 25px;
 }
 #your-email {
    flex-grow: 5;
+    border-bottom: 1px rgb(25, 25, 25) solid;
+
    margin-right: 9px;
    padding: 5px;
    background: none;
@@ -173,20 +186,20 @@ header > h1 {
 
 /* --- FOOTER PART --- */
 footer {
-   /* 자동 레이아웃 */
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   align-items: flex-start;
-   padding: 20px 0px 20px 0px;
-   border-bottom: 1px rgb(25, 25, 25) solid;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px rgb(25, 25, 25) solid;
 
-   /* Inside Auto Layout */
-   flex: none;
-   order: 4;
-   align-self: stretch;
-   flex-grow: 0;
-   margin: -1px 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -1px 0px;
 }
 
 .footer-logo-column {
@@ -200,11 +213,11 @@ footer {
   font-family: Pretendard;
   text-align: left;
 
-   /* Inside Auto Layout */
-   flex: none;
-   order: 0;
-   align-self: stretch;
-   flex-grow: 5;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 5;
 }
 .footer-logo-column > h3 {
   font-family: Pretendard;
@@ -212,20 +225,20 @@ footer {
   font-size: 24px;
 }
 .footer-nav-column {
-   /* 자동 레이아웃 */
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: flex-start;
-   padding: 10px;
-   gap: 10px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
 
-   /* Inside Auto Layout */
-   flex: none;
-   order: 0;
-   flex-grow: 1;
-   margin: 0px 48px;
-   text-align: left;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 48px;
+  text-align: left;
 }
 .footer-nav-column > h3 {
   font-family: "Pretendard-Bold";

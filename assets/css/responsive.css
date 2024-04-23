@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .head-navigation {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-card {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header > h1 {
+    font-size: 30px;
+  }
+}
