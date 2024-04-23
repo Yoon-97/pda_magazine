@@ -82,7 +82,7 @@ header > #work-small-title {
 }
 header > h1 {
    text-align: left;
-   font-size: 50px;
+   font-size: 60px;
    margin-top: 45px;
    margin-bottom: 60px;
 }
@@ -106,7 +106,7 @@ header > h1 {
    width: 400px;
 }
 .article-card > .list-group > h2 {
-   font-size: 25px;
+   font-size: 30px;
    margin-top: 20px;
    margin-bottom: 10px;
 }
@@ -154,9 +154,14 @@ header > h1 {
 }
 #your-email {
    flex-grow: 5;
-   border-bottom: 1px rgb(25, 25, 25) solid;
    margin-right: 9px;
    padding: 5px;
+   background: none;
+   border-width: 0 0 1px;
+}
+
+#your-email:::placeholder {
+   color: #000000;
 }
 #register-button {
    background-color: #0a0a23;
@@ -164,6 +169,7 @@ header > h1 {
    border-radius: 6px;
    padding: 6px;
    font-size: 11px;
+   border: 0;
 }
 
 /* --- FOOTER PART --- */
