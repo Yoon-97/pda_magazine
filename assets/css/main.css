@@ -55,11 +55,19 @@ body {
   gap: 20px;
 }
 
+.nav-group > .nav-side {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   font-size: 10px;
+}
+
 .nav-button {
-  background-color: #0a0a23;
-  color: white;
-  border-radius: 6px;
-  padding: 10px;
+   background-color: #0a0a23;
+   color: white;
+   border-radius: 6px;
+   padding: 10px;
+   font-size: 10px;
 }
 
 /* header */
@@ -71,15 +79,15 @@ header {
   border-bottom: 1px rgb(25, 25, 25) solid;
 }
 header > #work-small-title {
-  position: absolute;
-  font-size: 10px;
-  margin-top: 5px;
+   position: absolute;
+   font-size: 12px;
+   margin-top: 14px;
 }
 header > h1 {
-  text-align: left;
-  font-size: 50px;
-  margin-top: 30px;
-  margin-bottom: 60px;
+   text-align: left;
+   font-size: 60px;
+   margin-top: 45px;
+   margin-bottom: 60px;
 }
 
 /* --- BODY PART --- */
@@ -105,9 +113,9 @@ header > h1 {
   border-radius: 3%;
 }
 .article-card > .list-group > h2 {
-  font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+   font-size: 30px;
+   margin-top: 20px;
+   margin-bottom: 10px;
 }
 .article-content > li {
   display: flex;
@@ -119,45 +127,61 @@ header > h1 {
 }
 
 /* Newsletter */
+.newsletter {
+}
 #news-small-title {
-  font-size: 10px;
-  margin-top: 25px;
+   font-size: 10px;
+   margin-top: 7px;
 }
 .newsletter-group {
-  display: flex;
-  justify-content: space-between;
-
-  padding-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding: 6px;
+   margin-bottom: 30px;
+   margin-top: 15px;
+  
+    padding-bottom: 20px;
   border-bottom: 1px rgb(25, 25, 25) solid;
 }
-.newsletter > .newsletter-group > h1 {
-  text-align: left;
-  font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 60px;
+.newsletter-title > h1 {
+   text-align: left;
+   font-size: 40px;
+   margin-top: 20px;
+   margin-bottom: 60px;
 }
 .newsletter-side {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-grow: 0.13;
 }
 .newsletter-side > .newsletter-register {
   display: flex;
   justify-content: space-between;
 }
+#newsletter-text {
+   line-height: 25px;
+}
 #your-email {
-  flex-grow: 5;
-  border-bottom: 1px rgb(25, 25, 25) solid;
-  margin-right: 9px;
-  padding: 5px;
+   flex-grow: 5;
+    border-bottom: 1px rgb(25, 25, 25) solid;
+
+   margin-right: 9px;
+   padding: 5px;
+   background: none;
+   border-width: 0 0 1px;
+}
+
+#your-email:::placeholder {
+   color: #000000;
 }
 #register-button {
-  background-color: #0a0a23;
-  color: white;
-  border-radius: 6px;
-  padding: 6px;
-  font-size: 11px;
+   background-color: #0a0a23;
+   color: white;
+   border-radius: 6px;
+   padding: 6px;
+   font-size: 11px;
+   border: 0;
 }
 
 /* --- FOOTER PART --- */
