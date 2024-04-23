@@ -3,7 +3,7 @@
   src: url(../font/Pretendard-Bold.otf) format("otf");
 }
 @font-face {
-  font-family: "Roboto-Regular";
+  font-family: "RobotoMono-Medium";
   src: url(../font/RobotoMono-Medium.ttf) format("tff");
 }
 #page-wrapper {
@@ -111,6 +111,7 @@ header > h1 {
 
 .article-content > li {
   display: flex;
+  font-family: "RobotoMono-Medium";
   justify-content: space-around;
   font-size: 20px;
   line-height: 40px;
@@ -120,7 +121,8 @@ header > h1 {
 
 /* Newsletter */
 #news-small-title {
-  font-size: 10px;
+  font-family: "RobotoMono-Medium";
+  font-size: 20px;
   margin-top: 7px;
 }
 .newsletter-group {
@@ -135,7 +137,7 @@ header > h1 {
 }
 .newsletter-title > h1 {
   text-align: left;
-  font-size: 40px;
+  font-size: 80px;
   margin-top: 20px;
   margin-bottom: 60px;
   order: 1;
@@ -151,9 +153,11 @@ header > h1 {
 .newsletter-side > .newsletter-register {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
   order: 3;
 }
 #newsletter-text {
+  font-size: 25px;
   line-height: 25px;
   order: 3;
 }
@@ -207,7 +211,7 @@ footer {
   padding: 10px;
   font-family: Pretendard;
   text-align: left;
-
+  font-size: 20px;
   /* Inside Auto Layout */
   flex: none;
   order: 0;
@@ -217,7 +221,7 @@ footer {
 .footer-logo-column > h3 {
   font-family: Pretendard;
   text-align: left;
-  font-size: 24px;
+  font-size: 40px;
 }
 .footer-nav-column {
   /* 자동 레이아웃 */
@@ -238,12 +242,12 @@ footer {
 .footer-nav-column > h3 {
   font-family: "Pretendard-Bold";
   text-align: left;
-  font-size: 24px;
+  font-size: 37px;
 }
 .footer-ul-style > li {
   line-height: 35px;
   font-family: "Roboto-Regular";
-  font-size: 15px;
+  font-size: 20px;
 }
 .visible-when-react {
   display: none;
