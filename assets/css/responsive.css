@@ -29,4 +29,7 @@
   .visible-when-react {
     display: block;
   }
+  .visible-when-normal {
+    display: none;
+  }
 }
